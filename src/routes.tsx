@@ -1,4 +1,4 @@
-import { HomeIcon } from "@heroicons/react/24/outline";
+import { HomeIcon, BanknotesIcon, TrophyIcon } from "@heroicons/react/24/outline";
 
 export const routes = [
   {
@@ -6,4 +6,14 @@ export const routes = [
     icon: <HomeIcon />,
     name: "Home",
   },
+  {
+    path: "/cobrancas",
+    icon: <BanknotesIcon />,
+    name: "Cobranças",
+  },
+  {
+    path: "/objetivos",
+    icon: <TrophyIcon />,
+    name: "Objetivos",
+  }
 ];

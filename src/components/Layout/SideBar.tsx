@@ -17,7 +17,7 @@ const SideBar: React.ForwardRefRenderFunction<HTMLDivElement, Props> = (
   return (
     <div
       ref={ref}
-      className={`fixed h-screen w-[250px] flex-shrink-0 flex-col justify-between border-r border-[#23252c] md:flex`}
+      className={`fixed h-screen w-[250px] flex-shrink-0 flex-col justify-between border-r bg-black border-[#23252c] md:flex`}
     >
       <div>
         <div className="flex h-[60px] items-center px-4">

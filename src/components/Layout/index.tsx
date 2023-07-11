@@ -50,7 +50,7 @@ const Layout: React.FC<Props> = ({ children }) => {
 
       <main
         className={`pt-16 transition-all ease-in-out duration-[400ms] ${
-          showNav ? "ml-[250px]" : ""
+          showNav && !isMobile ? "ml-[250px]" : ""
         }`}
         
         onClick={() => {
